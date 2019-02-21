@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C1667AABC8FE512EB588F498 /* Pods_wellnessApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F34A7D3A2BFBAF0D9DA17B5 /* Pods_wellnessApp.framework */; };
+		D0174065221E76F4007E01BE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0174064221E76F4007E01BE /* SignUpViewController.swift */; };
 		D0C7A7F1220402FE00945B34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C7A7F0220402FE00945B34 /* AppDelegate.swift */; };
 		D0C7A7F3220402FE00945B34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C7A7F2220402FE00945B34 /* ViewController.swift */; };
 		D0C7A7F6220402FE00945B34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C7A7F4220402FE00945B34 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		13433965354121D10FD61A36 /* Pods-wellnessApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wellnessApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wellnessApp/Pods-wellnessApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4F34A7D3A2BFBAF0D9DA17B5 /* Pods_wellnessApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wellnessApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8406A32B43FFBD79904E3B2 /* Pods-wellnessApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wellnessApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-wellnessApp/Pods-wellnessApp.release.xcconfig"; sourceTree = "<group>"; };
+		D0174064221E76F4007E01BE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D0C7A7ED220402FE00945B34 /* wellnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wellnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C7A7F0220402FE00945B34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0C7A7F2220402FE00945B34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				D0C7A7F9220402FF00945B34 /* LaunchScreen.storyboard */,
 				D0C7A7FC220402FF00945B34 /* Info.plist */,
 				D0C7A80222040BCE00945B34 /* GoogleService-Info.plist */,
+				D0174064221E76F4007E01BE /* SignUpViewController.swift */,
 			);
 			path = wellnessApp;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0174065221E76F4007E01BE /* SignUpViewController.swift in Sources */,
 				D0C7A7F3220402FE00945B34 /* ViewController.swift in Sources */,
 				D0C7A7F1220402FE00945B34 /* AppDelegate.swift in Sources */,
 			);
